@@ -1,0 +1,650 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.outerdiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerdiv {
+  width: 80%;
+}
+
+::placeholder {
+  text-align: right;
+  color: black;
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.searchimg {
+  width: 40px;
+  margin-left: -2px;
+}
+
+input {
+  width: 160px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+}
+
+.loginimg {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.cartbag {
+  margin: 2px;
+  width: 35px;
+  height: 34px;
+}
+
+.cartbag:hover {
+  cursor: pointer;
+}
+
+.cartbagp {
+  position: relative;
+  top: 16px;
+  right: 22px;
+  color: white;
+  font-size: 13px;
+}
+
+.flex1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.flex2 {
+  display: flex;
+}
+
+.login {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  margin-left: -1px;
+  margin-top: 13px;
+  font-weight: bold;
+}
+
+.afterlogin {
+  margin-left: 0px;
+  margin-top: 12px;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nav li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.nav li a, .nav li button {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-left: 50px;
+  font-family: "Mallanna", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+.nav li button:hover, .nav li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.slides {
+  width: 95%;
+  height: 620px;
+  /* background-image: url(images/bg1.jpeg); */
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 30px;
+  animation-name: slider;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slider {
+  0% {
+    /* background-image: url(images/bg1.jpeg); */
+  }
+
+  25% {
+    /* background-image: url(images/bg1.jpg); */
+  }
+
+  50% {
+    background-image: url(images/bg5.jpg);
+  }
+
+  75% {
+    background-image: url(images/bg4.jpg);
+  }
+
+  100% {
+    background-image: url(images/bg3.jpg);
+  }
+}
+
+
+
+
+.loginouterdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.logindiv {
+  display: flex;
+  width: 85%;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px gray, -1px -1px 6px gray;
+  background-color: whitesmoke;
+}
+
+.logindivsignup {
+  display: flex;
+  width: 85%;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px gray, -1px -1px 6px gray;
+  background-color: whitesmoke;
+  margin-top: 63px;
+}
+
+.divgreensignup {
+  width: 680px;
+  height: 103vh;
+  /* background-image: url(./images/bg1.jpg); */
+  background-size: 580px 900px;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  margin-top: -85px;
+  margin-left: -120px;
+}
+
+.divgreen {
+  width: 680px;
+  height: 110vh;
+  /* background-image: url(./images/bg1.jpeg); */
+  background-size: 580px 900px;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  margin-top: -85px;
+  margin-left: -120px;
+}
+
+.logininfo {
+  height: 60%;
+  width: 260px;
+  margin: 180px 0px 0px 170px;
+}
+
+.logininfo input {
+  outline: none;
+  border: 0.5px solid black;
+  width: 270px;
+  height: 30px;
+  font-size: 20px;
+  margin: 15px 0px 12px 0px;
+  padding: 5px;
+}
+
+.logininfosignup {
+  /* height: 60%; */
+  width: 260px;
+  margin: 130px 0px 0px 170px;
+}
+
+.logininfosignup input {
+  outline: none;
+  border: 0.5px solid black;
+  width: 270px;
+  height: 30px;
+  font-size: 20px;
+  margin: 15px 0px 12px 0px;
+  padding: 5px;
+}
+
+.formdiv {
+  margin-left: -60px;
+}
+
+.submit {
+  height: 30px;
+  font-size: 15px;
+}
+
+.submit:hover {
+  background-color: rgb(177, 182, 186);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.loginzara {
+  text-align: center;
+  margin: 10px 0px 0px 165px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.Addiv {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: 100px;
+}
+
+.Adimg {
+  width: 18px;
+  margin: 6px;
+}
+
+.Adimg:hover {
+  cursor: pointer;
+}
+
+.category {
+  margin-left: 80px;
+}
+
+.categorynav {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray;
+  z-index: 2;
+}
+
+.firstdiv {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(226, 202, 206);
+}
+
+.categoryflex {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.firstimg {
+  width: 400px;
+  opacity: .8;
+}
+
+/* Category STyle */
+.container {
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryimg {
+  width: 350px;
+  height: 420px;
+  margin: 16px;
+  border-radius: 5px;
+}
+
+.categoryh4 {
+  width: 300px;
+  margin-left: 10px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.price {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.prevprice {
+  text-decoration: line-through;
+  opacity: .6;
+}
+
+.discount {
+  border: 1px solid black;
+  margin-left: 10px;
+  background-color: rgb(231, 247, 247);
+}
+
+.cartadd {
+  height: 21px;
+  background-color: rgb(231, 247, 247);
+  border: 1px solid black;
+  margin-left: 13px;
+}
+
+.cartadd:hover {
+  cursor: pointer;
+}
+
+.categoryimg:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 5px 8px #555;
+}
+
+/* FOOTER */
+footer {
+  width: 76%;
+  height: 200px;
+  border: 0.5px solid black;
+  margin-top: 100px;
+  background-color: rgb(232, 242, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer input {
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+footer input::placeholder {
+  text-align: left;
+}
+
+footer button {
+  border-radius: 10px;
+  background-color: blue;
+  margin-left: 5px;
+  width: 60px;
+  height: 20px;
+  color: white;
+  border: none;
+}
+
+footer button:hover {
+  background-color: rgb(72, 72, 238);
+  cursor: pointer;
+}
+
+.lastdivfooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  border: 0.5px solid black;
+  margin-top: 100px;
+  background-color: rgb(232, 242, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer input {
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.footer input::placeholder {
+  text-align: left;
+}
+
+.footer button {
+  border-radius: 10px;
+  background-color: blue;
+  margin-left: 5px;
+  width: 60px;
+  height: 20px;
+  color: white;
+  border: none;
+}
+
+.footer button:hover {
+  background-color: rgb(72, 72, 238);
+  cursor: pointer;
+}
+
+.lastdivfooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+
+
+.welcome {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 30px;
+}
+
+.pitchflex {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.outsidepitchdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pitchless {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card {
+  /* height: 350px; */
+  border: 0.5px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card-img-top {
+  width: inherit;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100px;
+  height: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(46, 46, 249);
+}
+
+.card-title {
+  margin-bottom: 5px;
+}
+
+.card-body {
+  margin-left: 10px;
+}
+
+.card-text {
+  margin-bottom: 6px;
+}
+
+.askpitchorinvest {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5px solid black;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.ask {
+  display: block;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  width: 120px;
+  text-align: center;
+  font-weight: bolder;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.knowledge {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.knowimg {
+  width: 45%;
+  border-radius: 20px;
+  box-shadow: -2px -2px 5px gray;
+  opacity: .8;
+}
+
+.knowdiv {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.logoutbtn {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  width: 60px;
+  margin-left: -1px;
+  margin-top: 13px;
+}
+.logoutbtn:hover{
+  cursor: pointer;
+}
+.pitchidea{
+  float: right;
+  margin-right: 40px;
+  text-decoration: none;
+  margin-top: -65px;
+  font-size: 28px;
+  color: black;
+  font-family: "Dancing Script", cursive;;
+  font-weight: bold;
+}
+.pitchidea:hover{
+  text-decoration: underline;
+}
+
+
+
+
+/* TOGGle */
+
+.toggletry{
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 100vh;
+}
+.firsttoggle{
+  width: 5%;
+  height: 100vh;
+  border: 1px solid red;
+  background-color: aqua;
+}
+.sectoggle{
+  /* width: 70%; */
+  height: 100vh;
+  border: 1px solid blue;
+}
+.imgs{
+  width: 28px;
+  display: block;
+  margin-left: 20px;
+}
+.imgs:hover{
+  cursor: pointer;
+}
