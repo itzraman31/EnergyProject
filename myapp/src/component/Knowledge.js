@@ -67,7 +67,7 @@ const Knowledge = () => {
             <br />
           </div>
 
-          <img className='knowimg' src="images/bg8.jpg" alt="not found" />
+          <img className='knowimg' src="images/bg1.jpg" alt="not found" />
         </div>
 
         <hr />
@@ -85,7 +85,7 @@ const Knowledge = () => {
               </div>
             </div>
             <div className="card" style={{ width: "16rem" }}>
-              <img className="card-img-top" src="images/bg1.jpeg" alt="Card image cap" />
+              <img className="card-img-top" src="images/bg1.jpg" alt="Card image cap" />
               <div className="card-body">
                 <h3 className="card-title">Advancements in Battery Technology Propel Energy</h3>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -101,7 +101,7 @@ const Knowledge = () => {
               </div>
             </div>
             <div className="card" style={{ width: "16rem" }}>
-              <img className="card-img-top" src="images/bg9.avif" alt="Card image cap" />
+              <img className="card-img-top" src="images/bg3.jpg" alt="Card image cap" />
               <div className="card-body">
                 <h3 className="card-title">Sustainable Energy Solutions for a Greener World</h3>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
