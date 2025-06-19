@@ -13,6 +13,7 @@ import Investorsignup from "./component/Investorsignup";
 import Pitchidea from "./component/Pitchidea";
 import Showidea from "./component/Showidea";
 import ToggleTRY from "./component/ToggleTRY";
+import Charts from "./Charts";
 
 const jwttoken = createContext();
 
@@ -65,6 +66,9 @@ function App() {
             <Route path="/investsignup" element={<Investorsignup />} />
             <Route path="/pitchidea" element={<Pitchidea />} />
             <Route path="/showidea" element={<Showidea />} />
+
+
+            <Route path="/charts" element={<Charts />} />
           </Routes>
         </BrowserRouter>
 
